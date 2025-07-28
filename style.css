@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 80vh;
+    background-size: max(1200px, 100vw);
+    background-position: center;
+    background-image: url("imag/image.png");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    height: 80vh;
+    opacity: 0.6;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+}
+
+nav {
+    width: 80vw;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+nav img {
+    margin-top: 2vh;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: calc(80vh - 60px);
+    position: relative;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+#text> :nth-child(1) {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 56px;
+    text-align: center;
+}
+
+#text> :nth-child(2) {
+    font-weight: 400;
+    font-size: 22px;
+    text-align: center;
+}
+
+#text> :nth-child(3) {
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+}
+
+#f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+}
+
+#f input {
+    border: 0.4px solid white;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    color: white;
+    padding: 10px 101px 8px 14px;
+    font-size: 20px;
+}
+
+#f button {
+    background-color: red;
+    color: white;
+    border: 0.4px solid black;
+    border-radius: 4px;
+    font-weight: bolder;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.line {
+    width: 100vw;
+    height: 0.44vh;
+    background-color: gray;
+    opacity: 0.8;
+}
+
+#eng {
+    padding: 5px 15px;
+    color: white;
+    font-weight: 400;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 0.5vh;
+}
+
+#sign {
+    background-color: red;
+    color: white;
+    padding: 5px 15px;
+    border: 0.1px solid black;
+    border-radius: 4px;
+}
+
+.first {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+.first .img {
+    position: relative;
+}
+
+.first .img img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.first .img video {
+    position: absolute;
+    top: 57px;
+    right: 0px;
+    width: 500px;
+}
+
+.first>div :first-child {
+    font-size: 48px;
+}
+
+.first>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.second {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+}
+
+.second>div :first-child {
+    font-size: 48px;
+}
+
+.second>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.third {
+    max-width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.third>div :first-child {
+    font-size: 48px;
+}
+
+.third>div :nth-child(2) {
+    font-size: 24px;
+}
+
+.third .img img {
+    position: relative;
+    width: 30vw;
+    z-index: 10;
+}
+
+.third .img {
+    position: relative;
+}
+
+.third .img img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.third .img video {
+    position: absolute;
+    top: 56px;
+    right: 0px;
+    width: 500px;
+}
+.faq h2{
+    color: white;
+    text-align: center;
+    padding: 34px;
+    font-size: 48px;
+}
+.q{
+    display: flex;
+    background-color: grey;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 20px auto;
+    font-size: 24px;
+    padding: 20px;
+    cursor: pointer;
+    color: white;
+}
+.q:hover:hover{
+    background-color: rgb(37, 37, 37);
+}
+.q svg{
+    filter: invert(1);
+}
